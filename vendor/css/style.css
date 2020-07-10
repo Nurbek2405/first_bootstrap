@@ -33,6 +33,7 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #000000; 
+   
 }
 
 .navbar-brand {
@@ -45,6 +46,12 @@ font-size: 16px;
 line-height: 19px;
 }
 
+.display-4 {
+    font-family: Roboto ;
+    font-style: 400;
+    font-weight: 500;  
+}
+
 .lead {
     max-width: 615px;
     font-family: Roboto;
@@ -52,7 +59,10 @@ line-height: 19px;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    padding: 21px;
+}
+
+.sdiv {
+    margin-left: 30px;
 }
 
 .card {
@@ -76,11 +86,27 @@ line-height: 19px;
     margin: 32px 30px 32px 55px;
 }
 
-.card-2 {
-    max-width: 350px;
-}
 
 .card-title {
     font-size: 20px;
 line-height: 23px;
+}
+.table, th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.footer__main {
+    background-color: #000000;
+    margin-top: 89px;
+    padding-left: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+}
+
+.title__footer_div {
+    margin-left: 65px;
 }
